@@ -5,7 +5,7 @@ import re
 import string
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from nltk.stem.porter import PorterStemmer
-st.write("Python executable:", sys.executable)
+#st.write("Python executable:", sys.executable)
 
 ps = PorterStemmer()
 stop_words = set(ENGLISH_STOP_WORDS)
